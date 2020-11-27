@@ -1,0 +1,15 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:oper="http://localhost/zoap/countries/server">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <oper:getCountries>
+        	<oper:itemCount>3</oper:itemCount>
+        </oper:getCountries>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:oper="http://localhost/zoap/helloworld/server">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <oper:getHelloWorld></oper:getHelloWorld>
+    </soapenv:Body>
+</soapenv:Envelope>
